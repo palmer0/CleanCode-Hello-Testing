@@ -75,7 +75,8 @@ public class HelloPresenter implements HelloContract.Presenter {
   }
 
   private void navigateToByeScreen() {
-    //TODO: no implemented
+    //TODO: uncomment in HelloActivity
+    view.get().navigateToByeScreen();
   }
 
   @Override
